@@ -7,6 +7,7 @@ public class MainApp {
 		System.out.print("1st Version");
 		Math cMath =new Math();
 		System.out.print(cMath.add(10, 5));
+		
 
 	}
 
@@ -14,7 +15,7 @@ public class MainApp {
 
 class Math{
 	int add(int a, int b) {
-		return a+b;
+		return a-b;
 	}
 }
 ;
